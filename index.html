@@ -1,239 +1,94 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Wasif | Portfolio </title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+    * {
+        box-sizing: border-box;
+        font-family: 'Press Start 2P', cursive;
+   }
+ </style>  
 </head>
 <body>
-    <div id="header">
-       <div class="container">
-        <nav>
-            <img id="logo"src="logo.png" class="logo">
-            <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fas fa-times" onclick="closeMenu()"></i>
-            </ul><i class="fas fa-bars" onclick="openMenu()"></i>
-        </nav>
-        <div class="header-text">
-            <p>Art-Tech Alchemist</p>
-            <h1>Hi, I'm <span>Wasif</span><br>from Dubai</h1>
-        </div>
 
-       </div>
-    </div>
-    <!-------about------ -->
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="user.png">
-                </div>
-                <div class="about-col-2">
-                <h1 class="sub-titles">About Me</h1>
-                <p>
-Greetings! I'm Wasif Waseem, a 15-year-old artist from Ajman, 
-UAE. I specialize in detailed doodles, cartoon illustrations, 
-hyperrealism, logos, and banners. I've collaborated with brands 
-like Parkooshop, Artify Art, and created custom NFTs for Vantage
-Point NFT. With over 2000 followers on Instagram (@artby_wasif),
-I love sharing my artwork with the world. Recently, I've 
-embarked on an exciting journey of learning web development.
-I'm fascinated by the digital realm and wanted to bring my 
-art to life through captivating and interactive websites. 
-I've been exploring coding languages like HTML, CSS, and 
-JavaScript and honing my skills in creating responsive and 
-user-friendly websites. By combining my artistic background 
-with web development, I'm pushing the boundaries of my 
-creativity and creating immersive online experiences.
-Join me on this incredible adventure as I continue to evolve as 
-an artist and explore the endless possibilities of web development. 
-Stay tuned for more captivating artwork and exciting web projects!
-                </p>
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>Artist/Developer</span><br>Unlocking 
-                            possibilities through elegant design</li>
-                        <li><span>Digital Artist</span><br>Empowering 
-                            pixels with creative vision</li>
-                        <li><span>Programmer</span><br>Building the web
-                             of tomorrow, today</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="projects">
-                    <ul>
-                        <li><span>2020</span><br>Began producing art for my Instagram portfolio</li>
-                        <li><span>2021 Mar - May</span><br>Partnered with Artify Art and Parkooshop to increase their sales</li>
-                        <li><span>2021 June - July</span><br>Created custom NFTs for Vantage Point NFT</li>
-                        <li><span>2023 June </span><br>Developed a mutliplayer fighting game</li>
-                        <li><span>2023 July </span><br>Programmed an Image Search web app with the Unsplash API</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>2011-2019</span><br>Gems Wellington Primary School, Dubai</li>
-                        <li><span>2021 Sep - 2023 June </span><br>Completed my Edexcel IGCSEs 1 year early with the British Council., Dubai</li>
-                    </ul>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-    <!------------------------ services ------------->
-    <!------------------------ services ------------->
-    <!------------------------ services ------------->
-    <!------------------------ services ------------->
-    <!------------------------ services ------------->
- <div id="services">
-    <div class="container">
-        <h1 class="sub-titles">My Services</h1>  
-        <div class="services-list">
-            <div>
-                <i class="fas fa-code"></i>
-               <h2>Web Design</h2> 
-               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos reiciendis nulla ullam. Quibusdam, accusantium tenetur facere repellat neque reprehenderit commodi laborum ipsam beatae, dicta culpa veniam amet numquam. Quaerat, asperiores.</p>
-               <a href="#">Learn more</a>
-            </div>
-            <div>
-                <i class="fa fa-palette"></i>
-                <h2>Custom Illustrations</h2> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur possimus repudiandae velit quis fugit, saepe atque sunt delectus dolore, accusantium iste reprehenderit modi dicta facere est soluta numquam quia fuga.</p>
-                <a href="#">Learn more</a>
-             </div>
-             
-             <div>
-                <i class="fab fa-google"></i>
-                <h2>Logo/Banner Designs</h2> 
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, alias accusantium, iure libero pariatur voluptatibus atque, a architecto nobis quo facilis culpa repellendus eligendi hic illo tempore reprehenderit dolorem magni!</p>
-                <a href="#">Learn more</a>
-             </div> 
+   <!-- red container div-->
+   <div style="position: relative; display: inline-block">
+       <!-- smaller red div -->
+        <div style= "position: absolute;
+        display: flex;
+        width: 100%; 
+        align-items: center;
+        top: 0;
+        padding: 20px;">
+       <!-- player health -->
+    <div style="position: relative; 
+    width: 100%; display: flex; 
+    justify-content: flex-end;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
 
-        </div> 
-    </div>
- </div>
- <!------------------- portfolio ---------->
- <!------------------- portfolio ---------->
- <!------------------- portfolio ---------->
- <!------------------- portfolio ---------->
- <!------------------- portfolio ---------->
- <div id="portfolio">
-    <div class="container">
-        <h1 class="sub-titles">My Work</h1> 
-        <div class="work-list">
-            <div class="work">
-                <img src="work-1.png">
-                <div class="layer">
-                    <h3>
-                        Multiplayer Fighting Game
-                    </h3>
-                    <p>
-                        Brawl against your friends in a high octane 1v1 fighting game to the death
-                    </p>
-                    <a href="javascript.game"><i class="fa-solid fa-link"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="work-2.png">
-                <div class="layer">
-                    <h3>
-                        Image Search Web App
-                    </h3>
-                    <p>
-                        Search for the perfect image via this easy and simple to use image search engine
-                    </p>
-                    <a href="image.search/imagesearch.html"><i class="fa-solid fa-link"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="work-3.png">
-                <div class="layer">
-                    <h3>
-                        Artify Art Collab
-                    </h3>
-                    <p>
-                        A4 Limited Edition Pokemon Card, made with Artify Markers
-                    </p>
-                    <a href="https://www.instagram.com/p/CM4nC5bBovE/?hl=en"><i class="fa-solid fa-link"></i></a>
-                </div>
-            </div>
-        </div>
-        <a href="#" class="btn">
-            See More
-        </a>
-    </div>
- </div>
- <!-- ------------------ contact------------->
- <div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-titles">Contact Me</h1>
-                <p><a href="mailto: wasifartsinfo@gmail.com">wasifartsinfo@gmail.com <i class="fas fa-envelope"></i></a></p>
-                    <p><a href="tel: 0502740724">050240724 <i class="fas fa-paper-plane"></i></a></p>
-                        <div class="social-icons">
-                            <a href="https://www.linkedin.com/in/wasif-waseem-315560258/"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="instagram.com/artby_wasif"<i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    
-            </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" 
-                        placeholder="Your Name" required>
-                        <input type="email" name="Email" 
-                        placeholder="Your Email/Instagram Username" required>
-                        <textarea name="Message" rows="6" placeholder=
-                        "Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                    <span id="msg">
-                           
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="copyright">
-        <p>
-           Copyright © Wasif
-        </p>
-    </div>
- </div>
-    <script src="script.js"></script>
-    <form name="submit-to-google-sheet">
-        <input name="email" type="email" placeholder="Email" required>
-        <button type="submit">Send</button>
-      </form>
-      
-      <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxIATyry34dVZouC0-60Mqw93S1_UyjArkmW1ycMVGrLe3YxRdAHdkYXZLJCjWsOcvR/exec'
-        const form = document.forms['submit-to-google-sheet']
-      const msg = document.getElementById("msg")
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML="Message Sent Successfully."
-                setTimeout(function(){
-                    msg.innerHTML=""
-                }, 3500
-                )
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
+    ">
+        <div style ="background-color: 
+        red; height: 30px; width: 100%;"></div>
+    <div id="playerHealth"
+    style="position:absolute; 
+    background: #818CF8; top: 0; right: 0; 
+    bottom: 0; width: 100%">
+           
+</div></div>
     
+       <!-- timer -->
+    <div id="timer"
+    style="
+    background-color: black; 
+    height: 60px; 
+    width: 100px; 
+    flex-shrink: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 4px solid rgb(0, 77, 171);
+    ">
+    
+10
+    </div>
+       <!-- enemy health -->
+       <div style="position: relative; 
+        width: 100%;
+       border-top: 4px solid white;
+       border-right: 4px solid white;
+       border-bottom: 4px solid white;">
+   <div  
+   style ="background-color:
+red; height: 30px; ">
+<div id="enemyHealth"
+style="position:absolute; 
+background: #818CF8
+; 
+top: 0; right: 0; bottom: 0; left: 0;">
+</div></div>
+       </div></div>
+    <div id="displayText"style="position:absolute; 
+    color: white;  align-items: center; 
+    justify-content: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none">
+        Tie
+    </div>
+   <canvas>
+   </canvas></div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" 
+   integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" 
+   crossorigin="anonymous" 
+   referrerpolicy="no-referrer"></script>
+   <script src="js/utils.js"></script>
+   <script src="js/classes.js"></script>
+   
+  <script src="index9.js">
+   </script>
 </body>
-</html>
